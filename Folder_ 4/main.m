@@ -11,7 +11,6 @@ f = imresize(f, [64 64]);
 [N, ~] = size(f);
 x_true = f(:);
 
-
 %% Imaging geometry
 angles = 0:1:179;
 numAngles = length(angles);
