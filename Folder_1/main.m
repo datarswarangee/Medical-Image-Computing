@@ -8,7 +8,6 @@ f = phantom(N);      % f(x,y)
 x = linspace(-(N-1)/2,(N-1)/2,N);
 y = linspace(-(N-1)/2,(N-1)/2,N);
 [X,Y] = meshgrid(x,y);
-
 figure; imagesc(x,y,f); colormap gray; axis image;
 title('Shepp-Logan Phantom f(x,y)');
 xlabel('x'); ylabel('y');
