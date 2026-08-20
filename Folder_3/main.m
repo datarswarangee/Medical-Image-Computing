@@ -3,7 +3,6 @@ clc; clear; close all;
 %% Load datasets
 load('chestCT.mat');      % assume variable chestCT
 load('myPhantom.mat');    % assume variable myPhantom
-
 datasets = {chestCT, myPhantom};
 names = {'Chest CT','My Phantom'};
 
