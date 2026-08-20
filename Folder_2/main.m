@@ -26,7 +26,6 @@ wmax = max(abs(w));
 %% Filtering for L = wmax and L = wmax/2
 L1 = wmax;
 L2 = wmax/2;
-
 filters = {'ramlak','shepp-logan','cosine'};
 
 for k = 1:length(filters)
