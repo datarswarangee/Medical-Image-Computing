@@ -14,7 +14,7 @@ Think of this like trying to understand what's inside an object (like a fruit) b
 * `Folder_3`: System matrix construction
 * `Folder_4`: Image reconstruction using matrix methods
 
-## Folder_1: Image Preparation
+## Query- 1: Image Preparation
 ### Objective
 Prepare an input image for reconstruction.
 
@@ -33,7 +33,7 @@ If original image is ( f(x, y) ), resizing creates a discretized version:
 f \in \mathbb{R}^{N \times N}
 ]
 
-## Folder_2: Projection Simulation
+## Query- 2: Projection Simulation
 
 ### Objective
 Simulate how rays pass through the image.
@@ -54,7 +54,7 @@ Where:
 * ( \theta ): angle
 * ( t ): distance from center
 
-## Folder_3: System Matrix Construction
+## Query- 3: System Matrix Construction
 
 ### Objective
 Build matrix **A** that models ray–pixel relationships.
@@ -83,7 +83,7 @@ Example:
 Instead of storing everything:
 > Only store where rays actually hit pixels.
 
-## Folder_4: Image Reconstruction
+## Query- 4: Image Reconstruction
 
 ### Objective
 Recover original image from projections.
